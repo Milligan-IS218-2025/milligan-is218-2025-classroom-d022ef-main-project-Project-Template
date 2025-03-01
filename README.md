@@ -71,12 +71,12 @@ Throughout this class, you will be working on a semester-long project to develop
 
 ### Week 5
 
-* Include at least four different **types** of advanced design concepts
+*[ ] Include at least four different **types** of advanced design concepts
     * (e.g. images, borders, backgrounds, gradients, transitions, and animations)
 
 ### Week 7
 
-* Include at least one flexbox element
-* Include a well formatted and styled table
+*[ ] Include at least one flexbox element
+*[ ] Include a well formatted and styled table
     * You must include both row and column groups and a caption
 
