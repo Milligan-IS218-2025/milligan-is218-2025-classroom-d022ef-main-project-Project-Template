@@ -9,15 +9,15 @@
 
 */
 
-@media only screen and (min-width:1300px){
-    .grid-container{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media only screen and (max-width:975px){
+@media only screen and (min-width:0px) and (max-width:975px){
     .grid-container{
         grid-template-columns: 1fr;
         padding: 5px;
+    }
+}
+
+@media only screen and (min-width:976px) and (max-width:1300px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
     }
 }
