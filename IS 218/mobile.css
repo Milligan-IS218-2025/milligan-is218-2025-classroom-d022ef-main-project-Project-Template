@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*
+    Text Stylesheet for the final project of IS 218
+    Author: Peter Gilbert
+    Date: 01/29/2025
+
+    Filename: theStylesheet.css
+
+*/
+
+@media only screen and (min-width:1300px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width:975px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        padding: 5px;
+    }
+}
