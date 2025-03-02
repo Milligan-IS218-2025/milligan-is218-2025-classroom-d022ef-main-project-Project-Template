@@ -39,10 +39,10 @@ Throughout this class, you will be working on a semester-long project to develop
 * [x] Create an `index.html` page
     * [x] Include a main heading
     * [x] Include a paragraph introducing the topic of your website
-* [ ] Create an `about.html` page
+* [x] Create an `about.html` page
     * [x] Include a main heading with your name
     * [x] Include a couple of paragraphs about yourself
-    * [ ] Include a list
+    * [x] Include a list
 * [x] All pages
     * [x] Include a header
     * [x] Include a navigation list with links to all pages
@@ -57,7 +57,7 @@ Throughout this class, you will be working on a semester-long project to develop
 
 * [x] Use appropriate semantic elements to organize the content of your pages
 * [x] Create and link at least one stylesheet that is shared among multiple pages
-* [ ] Create and link at least one stylesheet that contains styles unique to one page
+* [x] Create and link at least one stylesheet that contains styles unique to one page
 * [x] Use at least two fonts
 * [x] Demonstrate knowledge of the CSS font properties
 * [x] Select and use a consistent color theme across all pages
