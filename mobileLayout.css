@@ -9,7 +9,7 @@
 
 */
 
-@media only screen and (min-width:0px) and (max-width:975px){
+@media only screen and (min-width:0px) and (max-width:999px){
     header {
         display: block !important;
     }
@@ -28,18 +28,8 @@
     }
 }
 
-@media only screen and (min-width:976px) and (max-width:1330px){
-    header {
-        display: block !important;
-    }
+@media only screen and (min-width:1000px) and (max-width:1450px){
     .grid-container{
         grid-template-columns: repeat(2,1fr);
-    }
-    .sidebar {
-        display: none;
-    }
-
-    html {
-        padding-left: 0px !important;
     }
 }
