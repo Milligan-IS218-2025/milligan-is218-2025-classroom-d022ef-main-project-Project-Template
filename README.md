@@ -82,4 +82,4 @@ Throughout this class, you will be working on a semester-long project to develop
 
 ### Week 8
 
-* Include a well styled form
+* [ ] Include a well styled form
