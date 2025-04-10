@@ -92,3 +92,8 @@ Throughout this class, you will be working on a semester-long project to develop
     * Animation
 
 **Note:** Be mindful of your audience. Each of these features can be distracting and annoying if used improperly. For example, either don't use autoplay or mute audio and video files, and keep your transitions short.
+
+### Week 12
+
+* At least one page must have content generated using JavaScript
+* At least one page must have interactive component using JavaScript
