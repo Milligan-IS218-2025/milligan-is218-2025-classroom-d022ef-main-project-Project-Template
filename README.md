@@ -61,7 +61,7 @@ Throughout this class, you will be working on a semester-long project to develop
 * [x] Use at least two fonts
 * [x] Demonstrate knowledge of the CSS font properties
 * [x] Select and use a consistent color theme across all pages
-* [ ] Select and use consistent margins and padding across all pages
+* [x] Select and use consistent margins and padding across all pages
 * [x] Use pseudo-classes to change the styles of hyperlinks across all pages
 
 ### Week 4
