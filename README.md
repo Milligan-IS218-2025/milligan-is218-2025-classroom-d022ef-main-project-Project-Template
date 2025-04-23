@@ -66,18 +66,18 @@ Throughout this class, you will be working on a semester-long project to develop
 
 ### Week 4
 
-* [ ] All of your pages should have a responsive layout
+* [x] All of your pages should have a responsive layout
 * [x] Include at least one CSS Grid
 
 ### Week 5
 
-* [ ] Include at least four different **types** of advanced design concepts
+* [x] Include at least four different **types** of advanced design concepts
     * (e.g. images, borders, backgrounds, gradients, transitions, and animations)
 
 ### Week 7
 
-* [ ] Include at least one flexbox element
-* [ ] Include a well formatted and styled table
+* [x] Include at least one flexbox element
+* [x] Include a well formatted and styled table
     * You must include both row and column groups and a caption
 
 ### Week 8
