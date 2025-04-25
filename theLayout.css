@@ -164,7 +164,7 @@ h2{ /*Sets the style for h2 elements*/
     border:none;
 }
 
-.form-content{
+.form-content{/*Centers the form background*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +198,7 @@ form > section > label{
     border-radius:2px;
 }
 
-input[type="text"]{
+input[type="text"]{ /*Sets the bottom border as red until it has content in the text area*/
     width: 80%;
     border-bottom:2px solid red;
     outline: none;
@@ -220,4 +220,9 @@ input[type="submit"]{
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #A7CCED;
+    border-radius: 2px;
+}
+
+table, tbody, tr, td, th, caption{
+    display: block;
 }
