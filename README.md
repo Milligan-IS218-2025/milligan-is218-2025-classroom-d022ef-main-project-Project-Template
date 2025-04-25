@@ -31,55 +31,73 @@ Throughout this class, you will be working on a semester-long project to develop
 | Content and Design     | 20%        |
 | Technical Requirements | 20%        |
 | Creativity             | 10%        |
+| Category                              | Description                                                                       | Percentage |
+| ------------------------------------- | --------------------------------------------------------------------------------- | ---------- |
+| **HTML Structure**                    | Proper use of semantic elements, document structure, and organization             | 25%        |
+| **CSS Styling**                       | Quality of styling, organization of stylesheets, responsive design implementation | 25%        |
+| **Technical Requirements Completion** | Successful implementation of all weekly requirements                              | 25%        |
+| **Design & User Experience**          | Visual design, content organization, navigation, consistency, readability         | 15%        |
+| **Code Quality & Best Practices**     | Code organization, commenting, accessibility considerations, performance          | 10%        |
+
+### HTML Structure (25%) - Grading Criteria
+
+| Performance Level     | Description                                                                                                                                         | Grade Range |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| **Excellent**         | HTML structure uses appropriate semantic elements; excellent document outlining; consistent indentation and formatting; optimized for accessibility | 20-25%      |
+| **Satisfactory**      | Proper HTML structure with appropriate semantic elements; consistent formatting in most areas; basic accessibility considerations                   | 15-19%      |
+| **Needs Improvement** | Basic HTML with limited semantic elements; inconsistent formatting; accessibility issues                                                            | 0-14%       |
+
+### CSS Styling (25%) - Grading Criteria
+
+| Performance Level     | Description                                                                                                                                                                              | Grade Range |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| **Excellent**         | Well-organized CSS with appropriate selectors; excellent responsive design implementation; consistent naming conventions; effective use of CSS features (variables, media queries, etc.) | 20-25%      |
+| **Satisfactory**      | Functional CSS with basic organization; working responsive design; generally consistent naming; adequate use of CSS features                                                             | 15-19%      |
+| **Needs Improvement** | Poorly organized CSS; minimal responsive design; inconsistent naming conventions; limited use of CSS features                                                                            | 0-14%       |
+
+### Design & User Experience (15%) - Grading Criteria
+
+| Performance Level     | Description                                                                                                                       | Grade Range |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| **Excellent**         | Professional-looking design; clear visual hierarchy; intuitive navigation; excellent readability; thoughtful content organization | 12-15%      |
+| **Satisfactory**      | Attractive design; functional navigation; adequate readability; consistent theme throughout                                       | 9-11%       |
+| **Needs Improvement** | Basic design with layout issues; confusing navigation; readability or consistency problems                                        | 0-8%        |
+
+### Code Quality & Best Practices (10%) - Grading Criteria
+
+| Performance Level     | Description                                                                                 | Grade Range |
+| --------------------- | ------------------------------------------------------------------------------------------- | ----------- |
+| **Excellent**         | Clean, well-commented code; excellent organization; meets accessibility guidelines          | 8-10%       |
+| **Satisfactory**      | Readable code with some comments; adequate organization; basic accessibility considerations | 6-7%        |
+| **Needs Improvement** | Poorly organized code; minimal comments; few accessibility considerations                   | 0-5%        |
+
 
 ## Requirements
 
-### Week 1
-
-* [x] Create an `index.html` page
-    * [x] Include a main heading
-    * [x] Include a paragraph introducing the topic of your website
-* [x] Create an `about.html` page
-    * [x] Include a main heading with your name
-    * [x] Include a couple of paragraphs about yourself
-    * [x] Include a list
-* [x] All pages
-    * [x] Include a header
-    * [x] Include a navigation list with links to all pages
-    * [x] Include a footer with copyright information
-    * [x] Consistent page layout
-* [x] Miscellaneous
-    * [x] Include at least one image
-        * [x] All images must include alt text
-    * [x] Have clean, properly indented code
-
-### Week 3
-
-* [x] Use appropriate semantic elements to organize the content of your pages
-* [x] Create and link at least one stylesheet that is shared among multiple pages
-* [x] Create and link at least one stylesheet that contains styles unique to one page
-* [x] Use at least two fonts
-* [x] Demonstrate knowledge of the CSS font properties
-* [x] Select and use a consistent color theme across all pages
-* [x] Select and use consistent margins and padding across all pages
-* [x] Use pseudo-classes to change the styles of hyperlinks across all pages
-
-### Week 4
-
-* [x] All of your pages should have a responsive layout
-* [x] Include at least one CSS Grid
-
+@@ -72,7 +105,7 @@ Throughout this class, you will be working on a semester-long project to develop
 ### Week 5
 
-* [x] Include at least four different **types** of advanced design concepts
+* Include at least four different **types** of advanced design concepts
     * (e.g. images, borders, backgrounds, gradients, transitions, and animations)
+    * (e.g. images, borders, backgrounds, and gradients)
 
 ### Week 7
 
-* [x] Include at least one flexbox element
-* [x] Include a well formatted and styled table
-    * You must include both row and column groups and a caption
-
+@@ -83,3 +116,17 @@ Throughout this class, you will be working on a semester-long project to develop
 ### Week 8
 
-* [ ] Include a well styled form
+* Include a well styled form
+
+### Week 9
+
+* Include at least one of the following:
+    * Embedded audio or video
+    * Transition
+    * Animation
+
+**Note:** Be mindful of your audience. Each of these features can be distracting and annoying if used improperly. For example, either don't use autoplay or mute audio and video files, and keep your transitions short.
+
+### Week 12
+
+* At least one page must have content generated using JavaScript
+* At least one page must have interactive component using JavaScript
