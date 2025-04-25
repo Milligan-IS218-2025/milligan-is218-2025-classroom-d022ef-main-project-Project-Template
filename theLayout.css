@@ -36,13 +36,14 @@ body {/*Establishes the layout for the page*/
     grid-template-rows: auto 1fr auto;
 }
 
-html h1{ /*This is used to make sure that the h1 elements have a consistent font style with outline*/
+h1{ /*This is used to make sure that the h1 elements have a consistent font style with outline*/
     padding-top: 25px;
+    text-align: center;
     color: white;
-    text-shadow: -1px -1px 0 #304D6D,
-                 -1px 1px 0 #304D6D,
-                 1px 1px 0 #304D6D,
-                 1px -1px 0 #304D6D;
+    text-shadow: -.02em -.02em 0 #304D6D,
+                  -.02em .02em 0 #304D6D,
+                   .02em .02em 0 #304D6D,
+                  .02em -.02em 0 #304D6D;
 }
 
 section > p{/*This is also used to style font, but since sizing of text is different, so are the outline adjustments*/
@@ -69,10 +70,6 @@ a{/*Changes the anchor elements to be consistent with the rest of the paragraph 
 
 p > a{/*Gets rid of the underline for anchor elements within a paragraph element*/
     text-decoration: none;
-}
-
-h1{/*Centers the h1 element text*/
-    text-align: center;
 }
 
 ul{/*Sets the ul elements style and spacing*/
@@ -223,6 +220,61 @@ input[type="submit"]{
     border-radius: 2px;
 }
 
-table, tbody, tr, td, th, caption{
-    display: block;
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background:#304D6D;
+}
+
+th{
+    background:#82A0BC;
+}
+
+td{
+    background:#A7CCED;
+}
+
+td[data-date*="Apr"]{
+    background-color:darkgrey;
+}
+
+th,td{
+    color: white;
+    border: 1px solid gray;
+    width: 100px;
+    font-size: 1em;
+    padding: 5px;
+    text-shadow: -.02em -.02em 0 #304D6D,
+                  -.02em .02em 0 #304D6D,
+                   .02em .02em 0 #304D6D,
+                  .02em -.02em 0 #304D6D;
+}
+
+caption{
+    color:white;
+    text-shadow: -.02em -.02em 0 #304D6D,
+                  -.02em .02em 0 #304D6D,
+                   .02em .02em 0 #304D6D,
+                  .02em -.02em 0 #304D6D;
+}
+
+.calendarh2{
+    margin-left:auto;
+    margin-right: auto;
+    padding-left:0;
+    font-size:medium;
+    text-align:center;
+    color: white;
+    text-shadow: -.02em -.02em 0 #304D6D,
+                  -.02em .02em 0 #304D6D,
+                   .02em .02em 0 #304D6D,
+                  .02em -.02em 0 #304D6D;
+}
+
+td h1{
+    color:#304D6D;
+    text-shadow: -.02em -.02em 0 white,
+                  -.02em .02em 0 white,
+                   .02em .02em 0 white,
+                  .02em -.02em 0 white;
 }
