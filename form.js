@@ -1,6 +1,6 @@
 const input1 = document.getElementById('fdname');
 
-input1.addEventListener('input', function() {
+input1.addEventListener('input', function() { //Finds whether text area for fdname is filled
     if(this.value.trim() !== '')
     {
         this.classList.add('filled');
@@ -13,7 +13,7 @@ input1.addEventListener('input', function() {
 
 const input2 = document.getElementById('fname');
 
-input2.addEventListener('input', function() {
+input2.addEventListener('input', function() {//Finds whether text area for fname is filled
     if(this.value.trim() !== '')
     {
         this.classList.add('filled');
@@ -26,7 +26,7 @@ input2.addEventListener('input', function() {
 
 const input3 = document.getElementById('lname');
 
-input3.addEventListener('input', function() {
+input3.addEventListener('input', function() {//Finds whether text area for lname is filled
     if(this.value.trim() !== '')
     {
         this.classList.add('filled');
@@ -39,7 +39,7 @@ input3.addEventListener('input', function() {
 
 const input4 = document.getElementById('email');
 
-input4.addEventListener('input', function() {
+input4.addEventListener('input', function() {//Finds whether text area for email is filled
     if(this.value.trim() !== '')
     {
         this.classList.add('filled');
@@ -52,7 +52,7 @@ input4.addEventListener('input', function() {
 
 const form = document.getElementById('form-content');
 
-form.addEventListener('submit', function(x){
+form.addEventListener('submit', function(x){//Updates form for bottom border bar color value and returns a window alert when submitted
     x.preventDefault();
     const foodName = document.getElementById('fdname').value;
     const firstName = document.getElementById('fname').value;
