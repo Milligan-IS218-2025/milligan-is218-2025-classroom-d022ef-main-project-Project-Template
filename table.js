@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const dl = document.querySelector('.grid-container');
-    const radioButtons = document.querySelectorAll('input[name="abc"]');
+    const dl = document.querySelector('.grid-container'); //Grabs from the .grid-container
+    const radioButtons = document.querySelectorAll('input[name="abc"]'); //Grabs all of the data with a name off abc
 
     const originalSections = Array.from(dl.querySelectorAll('.grid-item')); // Save the original order
 
